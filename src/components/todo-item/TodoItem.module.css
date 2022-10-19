@@ -1,0 +1,32 @@
+.item{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+}
+.edit{
+    width: 10%;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 0 5px;
+}
+.del{
+    width: 10%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+}
