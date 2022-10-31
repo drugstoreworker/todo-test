@@ -1,9 +1,15 @@
 input{
     width: 80%;
     height: 30px;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid rgb(199, 199, 199);
 }
 .submit{
     width: 20%;
     height: 30px;
-    background-color: aqua;
+    background-color: rgb(0, 119, 255);
+    border-radius: 0 6px 6px 0;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
 }
